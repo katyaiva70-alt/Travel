@@ -1,0 +1,202 @@
+/* https://nicepage.com/ru/html-templates/preview/vremya-morya-843597?device=desktop */
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 100vh;
+    background-color: rgb(204, 251, 251);
+    position: relative;
+}
+
+#pink{
+width: 40%;
+height: 50vh;
+background-color: pink;
+position: absolute;
+top: 2%;
+left: 33%;
+z-index: 9;
+}
+
+#yellow{
+width: 50%;
+height: 65vh;
+background-color: rgb(249, 235, 134);
+position: absolute;
+top: 25%;
+right: 12%;
+}
+
+header img{
+    width: 60%;
+    height: 75vh;
+    position: absolute;
+    top: 7%;
+    left: 10%; 
+    object-fit: cover;
+    z-index: 10;
+}
+
+#inform{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    bottom: 5px;
+    left: 30%;
+    background-color: white;
+    z-index: 11;
+    padding: 10px;
+}
+
+@font-face {
+font-family: SourceCodePro-VariableFont_wght;
+src: url(fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+h1{
+    font-family: SourceCodePro-VariableFont_wght;
+    font-size: 5vw;
+    margin: 0;
+}
+
+header p{
+     font-family: SourceCodePro-VariableFont_wght;
+     color: gray;
+}
+
+#title{
+    height: 100vh;
+    background-image: url(img/-min.jpg);
+    background-size: cover;
+    padding: 1px;
+    padding-left: 30px;
+    /* background-repeat: no-repeat; */
+    background-position: 50% 50%;
+    /* background-color: rgb(243 239 205); */
+}
+
+h2{
+    font-family: SourceCodePro-VariableFont_wght;
+    font-size: 4vw;
+    color: #3a6ac3;
+}
+
+#title p{
+    width: 50%;
+    line-height: 2;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: SourceCodePro-VariableFont_wght;
+    color: #3291a0;
+}
+
+@font-face {
+    font-family: ofont_Propaniac;
+    src: url(fonts/ofont_Propaniac.ttf);
+}
+
+#photos1{
+display: flex;
+}
+
+#photos1 img, #photos11 img{
+ width: 25%;
+ margin: 50px; 
+}
+
+#photos1 p, #photos11 p{
+  color: #3a6ac3;
+  margin-top: 150px;
+  font-size: 40px;
+  font-family: ofont_Propaniac;
+  letter-spacing: 0.5em;
+}
+
+#photos11{
+display: flex;
+position: relative;
+}
+
+/* #photos11 img{
+ width: 25%;
+ margin: 50px; 
+} */
+
+/* #photos11 p{
+  color: #3a6ac3;
+  margin-top: 150px;
+  font-size: 40px;
+  font-family: SourceCodePro-VariableFont_wght;
+} */
+
+#yellow1{
+width: 20%;
+height: 20vh;
+background-color: #fef798;
+position: absolute;
+top: 12%;
+left: 20%;
+z-index: 1;
+text-align: center;
+/* opacity: 0.9; */
+/* border-radius: 30px; */
+}
+
+#green{
+    width: 20%;
+    height: 20vh;
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(198, 252, 234);
+    text-align: center;
+    top: 60%;
+    left: 55%;
+    /* opacity: 0.9; */
+    /* border-radius: 30px; */
+}
+
+#yellow1 p, #green p{
+    margin-top: 40px;
+}
+
+#title1{
+    height: 100vh;
+    background-image: url(img/6d5d40f9deb0278a3e4c483ebaeecac9.jpg);
+    background-size: cover;
+    padding: 1px;
+    padding-left: 30px;
+    background-position: 50% 50%;
+}
+
+#title1 p{
+    width: 35%;
+}
+
+section{
+ display: flex;
+ font-size: 20px;
+ font-family: SourceCodePro-VariableFont_wght;
+ color: #014b43;
+}
+
+#part1{
+margin-right: 400px;
+}
+
+#photos2 img{
+     width: 25%;
+ margin: 50px; 
+}
+
+#photos2{
+    display: flex;
+}
+
+#photos2 p{
+    color: #014b43;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: ofont_Propaniac;
+}
