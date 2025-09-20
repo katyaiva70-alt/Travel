@@ -40,7 +40,7 @@ header img{
 }
 
 #inform{
-    width: 60%;
+    width: 50%;
     height: auto;
     position: absolute;
     bottom: 5px;
@@ -63,7 +63,7 @@ h1{
 
 header p{
      font-family: SourceCodePro-VariableFont_wght;
-     color: gray;
+     color: rgb(92, 92, 92);
 }
 
 #title{
@@ -140,8 +140,6 @@ top: 12%;
 left: 20%;
 z-index: 1;
 text-align: center;
-/* opacity: 0.9; */
-/* border-radius: 30px; */
 }
 
 #green{
@@ -153,8 +151,6 @@ text-align: center;
     text-align: center;
     top: 60%;
     left: 55%;
-    /* opacity: 0.9; */
-    /* border-radius: 30px; */
 }
 
 #yellow1 p, #green p{
@@ -200,3 +196,174 @@ margin-right: 400px;
     font-size: 40px;
     font-family: ofont_Propaniac;
 }
+
+#photos31, #photos32{
+    display: flex;
+}
+
+#photos31 img, #photos32 img{
+width: 50%;
+margin: 0;
+height: 50vh;
+}
+
+#title2{
+    padding: 0;
+    /* border: 3px solid black; */
+    background-color: rgb(250, 201, 138);
+    height: 50vh;
+    width: 50%;
+}
+
+#title2 p{
+    margin: 5px;
+    color: #0b7066;
+ /* border: 3px solid black; */
+}
+
+#title2 h2{
+    margin: 5px;
+    color: #0ca192;
+}
+
+@font-face {
+    font-family: ofont_Fortuna;
+    src: url(fonts/ofont_Fortuna.ttf);
+}
+
+#venice h2{
+ /* color: rgb(11, 124, 231); */
+ color: #014b43;
+  margin-top: 0;
+  margin-right: 8vw;
+ margin-bottom: 0;
+ font-family: ofont_Fortuna;
+ text-align: right;
+ letter-spacing: 1vw;
+ font-size: 17vh;
+ font-weight: 80;
+ padding: 0;
+}
+
+#photos4{
+    position:relative;
+    display: flex;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+#venice{
+/* background-color: #014b43; */
+background-color: rgb(230, 205, 174);
+position: relative;
+height: 200vh;
+display: block;
+padding: 10px;
+/* margin-top: 50px; */
+}
+
+#venice5{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 10px solid white;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 15vh;
+}
+
+#venice1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+#venice6{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 20px solid #e7490b;
+    position: absolute;
+    z-index: 1;
+    margin-top: 60vh;
+    margin-left: 18vw;
+}
+
+#round1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 25px solid rgb(11, 124, 231);
+    margin-left: 5vw;
+    margin-top: 50vh;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#round2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 40px solid #86b155;
+    position: absolute;
+    z-index: 1;
+    margin-left: 63vw;
+    margin-top: 80vh;
+}
+
+#title3{
+     width: fit-content;
+margin: 50px;
+margin-top: 70vh;
+position: absolute;
+z-index: 1;
+/* background-color: white; */
+text-align: center;
+padding: 5px;
+/* border: 5px solid rgb(11, 124, 231); */
+display: flex;
+}
+
+#title3 p{
+    color: #014b43;
+    margin: 2px auto;
+     font-family: ofont_Fortuna;
+font-size: 4vh;
+font-style: italic;
+letter-spacing: 0.3vw;
+}
+
+/* #title3 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 5px solid rgb(11, 124, 231);
+    margin: 20px;
+} */
+/* #photos4 p{
+    position: absolute;  
+    text-decoration: 10px wavy red;  
+    z-index: 10;
+} */
+
+#wavy span{
+    text-decoration-style: wavy;
+    text-decoration-color: #e7490b;
+    text-decoration-thickness: 15px;
+    text-decoration-line: line-through;
+    letter-spacing: 1em;
+    color: #e7490b00;
+    padding: 15px;
+}
+
+#wavy{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60vw;
+    margin-top: 10vh;
+}
+

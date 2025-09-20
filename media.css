@@ -1,17 +1,246 @@
 @media(max-width: 1000px){
     h1{
-    font-size: 7vw;
+    font-size: 40px;
 }
+
 #inform{
-    margin-top: 20px;
-    width: 50%;
-    /* height: auto;
+    width: 90%;
+    height: auto;
     position: absolute;
-    bottom: 5px;
-    left: 15%;
-    background-color: rgb(247, 183, 183);
+    top: 40vh;
+    left: 0;
+    background-color: rgb(255, 234, 234);
     z-index: 11;
-    padding: 10px; */
+    padding: 10px;
+    opacity: 0.7;
 }
+
+
+#photos1{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#photos1 img, #photos11 img{
+ width: 80%;
+ /* margin: 0 auto;  */
+}
+
+#photos11{
+display: flex;
+position: relative;
+flex-direction: column;
+align-items: center;
+}
+
+#photos1 p, #photos11 p{
+  color: #3a6ac3;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: ofont_Propaniac;
+  letter-spacing: 0.5em;
+}
+
+#yellow1{
+width: fit-content;
+height: 20vh;
+background-color: #fef798;
+position: absolute;
+top: 27%;
+left: 24%;
+z-index: 1;
+text-align: center;
+}
+
+#green{
+    width: fit-content;
+    height: 20vh;
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(198, 252, 234);
+    text-align: center;
+    top: 61%;
+    left: 32%;
+}
+
+#title{
+    height: auto;
+    background-image: url(img/-min.jpg);
+    background-size: cover;
+    padding: 1px;
+    padding-left: 30px;
+    /* background-repeat: no-repeat; */
+    background-position: 50% 50%;
+    /* background-color: rgb(243 239 205); */
+}
+
+h2{
+    font-family: SourceCodePro-VariableFont_wght;
+    font-size: 30px;
+    color: #3a6ac3;
+}
+
+#title p{
+    width: 90%;
+    line-height: 1.2;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: SourceCodePro-VariableFont_wght;
+    color: #3291a0;
+}
+
+section{
+ display: flex;
+ font-size: 19px;
+ font-family: SourceCodePro-VariableFont_wght;
+ color: #014b43;
+ flex-direction: column;
+}
+
+
+#title1{
+    height: auto;
+    background-image: linear-gradient(rgba(249, 241, 241, 0.341), rgba(249, 241, 241, 0.811)), url(img/6d5d40f9deb0278a3e4c483ebaeecac9.jpg);
+    background-size: cover;
+    padding: 1px;
+    padding-left: 5%;
+    background-position: 50% 50%;
+}
+
+#title1 p{
+    width: 100%;
+}
+
+#part1{
+margin-right: 0;
+}
+#photos2{
+    display: flex;
+    flex-direction: column;
+}
+
+#photos2 img{
+width: 80%;
+margin: auto; 
+}
+
+#photos2 p{
+    width: fit-content;
+    color: #014b43;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: ofont_Propaniac;
+}
+
+#title2 h2{
+    font-size: 30px;
+    margin: 5px;
+    color: #0ca192;
+}
+
+#photos31, #photos32{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+#photos31 img, #photos32 img{
+width: 100%;
+height: auto;
+}
+
+#title2{
+    padding: 0;
+    background-color: rgb(250, 201, 138);
+    height: auto;
+   width: fit-content;
+}
+
+#venice{
+background-color: rgb(230, 205, 174);
+position: relative;
+height: 250vh;
+display: block;
+padding: 10px;
+
+}
+
+#venice h2{
+letter-spacing: 0.5vw;
+ font-size: 10vh;
+ font-weight: 50;
+}
+
+#title3 p{
+    color: #014b43;
+    margin: 285px auto;
+     font-family: ofont_Fortuna;
+font-size: 3vh;
+font-style: italic;
+letter-spacing: 0.1vw;
+}
+
+#title3{
+    position: relative;
+}
+
+#photos4{
+    position:relative;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#venice1{
+    width: 150px;
+    height: auto;
+     border-radius: 50%;
+}
+
+#venice5{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 15%;
+    margin-top: 50vh;
+}
+
+#venice6{
+    width: 250px;
+    height: 250px;
+    margin-top: 95vh;
+    margin-left: 0;
+}
+
+#round1{
+    margin-left: 13vw;
+    margin-top: 34vh;
+     border: 20px solid rgb(11, 124, 231);
+}
+
+#round2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 30px solid #86b155;
+    position: absolute;
+    z-index: 1;
+    margin-left: 50vw;
+    margin-top: 30vh;
+}
+
+
+#wavy{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vw;
+    margin-top: 3vh;
+    transform: scale(0.7);
+}
+
 }
 
